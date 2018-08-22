@@ -1,0 +1,201 @@
+.state-changes {
+  width: 100%;
+  height: 410px;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.state-changes p {
+  margin: 0;
+  padding: 0;
+}
+
+.state-changes svg {
+  position: absolute;
+  display: block;
+  color: #007aff;
+  z-index: -9999;
+}
+
+/* CARD */
+.card {
+  position: absolute;
+  display: inline-block;
+  padding: 14px;
+  background: #fff;
+  border: solid;
+  border-width: 1px;
+  border-color: #eeeeee;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+  height: 65px;
+  opacity: 0;
+}
+
+.card h1 {
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: -0.36px;
+  padding-bottom: 4px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.card_circle {
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  right: -5px;
+  width: 9px;
+  height: 9px;
+  background: #fff;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  z-index: 9999;
+}
+
+.card_circle_check--js,
+.card_circle_check-2--js {
+  opacity: 0;
+  top: 23px;
+  right: -10px;
+  padding-top: 3px;
+  width: 12px;
+  height: 9px;
+  background: #4cd964;
+  border: 3px solid #fff;
+  box-sizing: content-box;
+}
+
+.card_circle_check--tick {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card_label {
+  min-width: 22px;
+  position: relative;
+  display: inline-block;
+  padding: 4px 4px 0px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background: #e6e6e6;
+  border-radius: 2px;
+  line-height: 1;
+}
+
+.card_label p {
+  font-size: 11px;
+  color: #999999;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.card_label--green {
+  background: #4cd964;
+}
+.card_label--yellow {
+  background: #ffcc00;
+}
+.card_label--blue {
+  background: #0085ff;
+}
+
+.card_label--green p,
+.card_label--yellow p,
+.card_label--blue p {
+  color: #fff;
+}
+
+.card_one--js {
+  top: 170px;
+}
+.card_two--js {
+  top: 82px;
+  left: 345px;
+}
+.card_three--js {
+  top: 42px;
+  left: 662px;
+}
+.card_four--js {
+  top: 126px;
+  left: 662px;
+}
+.card_five--js {
+  top: 252px;
+  left: 345px;
+  min-width: 65px;
+}
+.card_six--js {
+  top: 210px;
+  left: 662px;
+}
+.card_seven--js {
+  top: 294px;
+  left: 662px;
+}
+
+/* LINES */
+.line_auth {
+  top: 117px;
+  left: 126px;
+  stroke-dasharray: 288.468;
+  stroke-dashoffset: 288.468;
+}
+
+.line_expired {
+  top: 70px;
+  left: 448px;
+  stroke-dasharray: 240.685;
+  stroke-dashoffset: 240.685;
+}
+
+.line_shipped {
+  top: 114px;
+  left: 448px;
+  stroke-dasharray: 224.49;
+  stroke-dashoffset: 224.49;
+}
+
+.line_shipped--paid {
+  top: 168px;
+  left: 444px;
+  stroke-dasharray: 314.045;
+  stroke-dashoffset: 314.045;
+}
+
+.line_shipped--refund {
+  top: 158px;
+  left: 745px;
+  stroke-dasharray: 178.822;
+  stroke-dashoffset: 178.822;
+}
+
+.line_paid {
+  top: 203px;
+  left: 126px;
+  stroke-dasharray: 279.21;
+  stroke-dashoffset: 279.21;
+}
+
+.line_refund {
+  top: 240px;
+  left: 444px;
+  stroke-dasharray: 243.517;
+  stroke-dashoffset: 243.517;
+}
+
+.line_canceled {
+  top: 203px;
+  left: 127px;
+  stroke-dasharray: 711.921;
+  stroke-dashoffset: 711.921;
+}

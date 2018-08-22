@@ -8,6 +8,7 @@ import * as mobileNavigation from './mobileNavigation';
 import toggleClass from './toggleClass';
 import linkDropdown from './linkDropdown';
 import sidebar from './sidebar';
+import paymentStateChanges from './paymentStateChanges';
 
 const handlers = makeHandlers([toggleClass, mobileNavigation.hide, mobileNavigation.show]);
 const enhancers = makeEnhancers([
@@ -17,6 +18,7 @@ const enhancers = makeEnhancers([
   mobileNavigationButton,
   sidebar,
   linkDropdown,
+  paymentStateChanges,
 ]);
 
 const main = () => {
