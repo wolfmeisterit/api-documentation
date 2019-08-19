@@ -123,7 +123,7 @@ Here's an example where a shopper uses a discount code for 10% off:
            "quantity": 2,
            "totalAmount": {
                "currency": "EUR",
-               "value": "38.98"
+               "value": "39.98"
            },
            "vatAmount": {
                "currency": "EUR",
