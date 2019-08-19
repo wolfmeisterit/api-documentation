@@ -135,17 +135,17 @@ Here's an example where a shopper uses a discount code for 10% off:
            "type": "discount",
            "unitPrice": {
                "currency": "EUR",
-               "value": "-3.90"
+               "value": "-4.00"
            },
            "vatRate": "21.00",
            "quantity": 1,
            "totalAmount": {
                "currency": "EUR",
-               "value": "-3.90"
+               "value": "-4.00"
            },
            "vatAmount": {
                "currency": "EUR",
-               "value": "-0.68"
+               "value": "-0.84"
            }
        }
    ]
